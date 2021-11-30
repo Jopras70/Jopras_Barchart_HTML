@@ -1,0 +1,68 @@
+.chart {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(100, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 3px;
+    height: 400px;
+    width: 100%;
+    background:white;
+    padding: 200px 10px 0px 10px;
+    text-align: center;
+  }
+  
+  [class*="bar"] {
+    border-radius: 0;
+    transition: all .6s ease;
+    background-color: black;
+    border-top:1px solid darkturquoise;
+    border-right:1px solid darkturquoise;
+    border-left:1px solid darkturquoise;
+    grid-row-start: 1;
+    box-sizing: border-box;
+    grid-row-end: 101;
+    text-align: center;
+    margin-top: auto;
+    }
+
+  [class*="bar"] span{
+    position: relative;
+    top: -20px;
+    color: darkturquoise;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  [class*="bar"] label{
+    position: absolute;
+    width: auto;
+    bottom: -23px;
+    color: darkturquoise;
+    font-size: 12px;
+    font-weight: bold;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+  
+  .lable{
+    background-color:black;
+    text-align: center;
+    color: darkturquoise;
+  }
+
+  .bar-1{
+    position: relative;
+    height: 8.8%
+  }
+
+  .bar-2{
+    position: relative;
+    height: 19.3%
+  }
+
+  .bar-3{
+    position: relative;
+    height: 65.3%
+  }
+ 

@@ -1,0 +1,28 @@
+* {box-sizing:border-box}
+
+.container {
+  width: 100%; 
+  background-color:black;
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: black; 
+}
+
+.hello {
+    width: 24.7%;
+    background-color:blue;
+} 
+
+.hi {
+    width: 21.2%;
+    background-color:red;
+} 
+
+.halo {
+    width: 54.1%;
+    background-color:darkmagenta;
+} 
